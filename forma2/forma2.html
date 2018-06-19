@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Φόρμα ξανά!!</title>
+	<content charset="utf-8">
+</head>
+
+<body>
+	<form action="forma2.php" method="POST">
+	<table>
+	
+	<tr>
+	<td>Όνομα</td>
+	<td><input type="text" name="fname" placeholder="Το όνομα σας">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Επώνυμο</td>
+	<td><input type="text" name="lname" placeholder="Το επώνυμο σας">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Κωδικός</td>
+	<td><input type="password" name="pwd" placeholder="Ο κωδικός σας">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Χώρα</td>
+	<td><select name="origin">
+		<option value="Αγγλία">Αγγλία</option>
+		<option value="Γαλλία">Γαλλία</option>
+		<option value="Ελλάδα">Ελλάδα</option>
+		<option value="Γερμανία">Γερμανία</option>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Φύλλο</td>
+	<td><input type="radio" name="sex" value="άντρας">Άντρας
+		<input type="radio" name="sex" value="γυναίκα">Γυναίκα
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Ημερομηνία Γέννησης</td>
+	<td><input type="date" name="bdate">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Ενδιαφέροντα</td>
+	<td><input type="checkbox" name="interests[]" value="ταξίδια">Ταξίδια
+		<input type="checkbox" name="interests[]" value="σπορ">Σπορ
+		<input type="checkbox" name="interests[]" value="τεχνολογία">Τεχνολογία
+		<input type="checkbox" name="interests[]" value="τέχνη">Τέχνη
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Αγαπημένος Αριθμός</td>
+	<td><input type="number" name="fnumber" min="1" max="100">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Αγαπημένο Χρωμα</td>
+	<td><input type="color" name="fcolor" value="red">
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Σχόλια</td>
+	<td><input type="text" name="comments" placeholder="Τα σχόλια σας">
+	</td>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td><input type="submit" name="submit" value="Υποβολή">
+	</td>
+	</tr>
+
+		
+	</table>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<TITLE> Μεταφορά Αρχείου </TITLE>
+</HEAD>
+<BODY>
+<form action="metafora_arxeiou.php" method="POST" enctype="multipart/formdata">
+<input type="hidden" value="512000" name="MAX_FILE_SIZE" />
+<p><strong>File to Upload:</strong><input type="file" name="userfile"
+/></p>
+<p><input type="submit" value="upload!" /></p>
+</form>
+</BODY>
+</HTML>
+
+
+
+<!--Το MAX_FILE_SIZE είναι ενημερωτικό για τον
+browser. Είναι εύκολο να παρακαμφθεί αυτή η
+μέγιστη τιμή. Έτσι μην στηρίζεστε ότι ο browser
+υπακούει την επιθυμία σας! Οι PHP-ρυθμίσεις
+όμως, για το μέγιστο μέγεθος (maximum-size), δεν
+μπορούν να ξεγελαστούν. Καλύτερα να
+προσθέτετε το MAX_FILE_SIZE ούτως ή άλλως
+γιατί προστατεύει τους χρήστες από τον κόπο να
+περιμένουν για ένα μεγάλο αρχείο να μεταφερθεί
+μόνο και μόνο για να μάθουν πως ήταν πολύ
+μεγάλο μετά.-->

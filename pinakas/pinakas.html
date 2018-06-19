@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ΔΗΜΙΟΥΡΓΙΑ ΠΙΝΑΚΑ</title>
+</head>
+
+<body>
+<form action="pinakas.php" method="post">
+
+<div>
+<p>Δώσε γραμμές + στήλες: <input type="number" name ="gs" min="3" step="2" max="55"/></p> 
+</div>
+
+<div>
+<p>Χρώμα: <input type="color" name ="xrwma" value="#ff0000" /></p>
+</div>
+
+<div>
+<p>Διάθεση:
+<select name="mood">
+<option value="happy">Happy</option>
+<option value="sad">Sad</option>
+<option value="neutral">Neutral</option>
+</select>
+</p>
+</div>
+
+<div>
+<p>Σχήμα:
+<select name="sxima">
+<option value="xiasti">Χιαστή</option>
+<option value="stauros">Σταυρός</option>
+<option value="perimetrika">Περιμετρικά</option>
+</select>
+</p>
+</div>
+
+<div>
+<input type="submit" value="Υποβολή"/>
+</div>
+
+</form>
+</body>
+</html>

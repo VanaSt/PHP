@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Δημιουργία πίνακα</title>
+<style type="text/css">
+body {
+	margin: 2em 5em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+legend {
+	font-family:Arial, Helvetica, sans-serif;
+}
+input, select {
+	margin-bottom: 1em;
+	display:block;
+}
+legend {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+fieldset {
+	padding: 1em;
+}
+button {
+	
+	background-color: tomato;
+	color: purple;
+}
+#but {
+	border-radious: 10px;
+}
+</style>	
+</head>
+
+<body>
+<form action="pinakas_dimiourgia.php" method="post">
+
+<fieldset>
+<legend>Your table!</legend>
+
+	<div><p><label>Grammes <input type="number" name="gr" min="1" max="100" placeholder="1"/></label></p></div>
+
+	<div><p><label>Stiles <input type="number" name="st" min="1" max="100" value="0" autofocus /></label></p></div>
+
+	<div><p><label>Border-px <input type="number" name="bor" min="3" max="55" value="3"/></label></p></div>
+
+	<div><p><label>Color <input type="color" name="color" value="#ff99ff"/></label></p></div>
+
+	<div><p><label>Width-px <input type="number" name="width"/></label></p></div>
+
+	<div><p><label>Height-px <input type="number" name="height"/></label></p></div>
+
+</fieldset>
+
+<fieldset>
+	<button id="but" type="submit">Submit</button>
+</fieldset>
+
+</form> 
+</body>
+</html>

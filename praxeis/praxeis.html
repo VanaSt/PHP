@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Πράξεις</title>
+<style type="text/css">
+body {
+	margin: 3em 3em;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: purple;
+	}
+fieldset {
+	margin-bottom: 2em;
+	padding: 1em;
+	}
+input, select {
+	margin-bottom: 1em;
+	display: block;
+	}
+input[type="checkbox"]{
+	display: inline;
+	}	
+button {
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	}
+#but {
+	border-radius: 10px;
+	}
+
+</style>
+</head>
+<body>
+<form action="praxeis.php" method="post">
+
+<h1>Πράξεις</h1>
+
+<fieldset>
+
+<div>
+<p>Αριθμός 1ος: <input type="numnber" name="ar1" min="0" value="1"/></p>
+</div>
+
+<div>
+<p>Πράξη: <select name="praxi">
+<option value="+">Πρόσθεση</option>
+<option value="-">Αφαίρεση</option>
+<option value="*">Πολλαπλασιασμός</option>
+<option value="/">Διαίρεση</option>
+<option value="mod">Ακέραιο Υπόλοιπο</option>
+<option value="div">Ακέραιη Διαίρεση</option>
+</select>
+</p>
+</div>
+
+<div>
+<p>Αριθμός 2ος: <input type="numnber" name="ar2" min="0" value="1"/></p>
+</div>
+
+<div>
+<p><button id="but" type="submit">Υποβολή</button></p>
+</div>
+
+</fieldset>
+
+</form>
+</body>
+</html>
