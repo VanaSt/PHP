@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>flags</title>
+</head>
+
+<body>
+<form action="flags.php" method="post">
+
+<div>
+<p>Stiles & Grammes: <input type="number" name="gs" min="7" step="2" max="55" required autofocus /></p>
+<!-- Οι γραμμές και στήλες χρησιμεύουν μόνο στην περίπτωση της Αγγλίας -->
+</div>
+
+<div>
+<p>Stiles: <input type="number" name="stiles" min="3" step="3" max="54" required /></p>
+</div>
+
+<div>
+<p>Grammes: <input type="number" name="grammes" min="3" step="3" max="54" required /></p>
+</div>
+
+<div>
+<p>FLag: 
+<select name="flag">
+<option value="uk">Uk</option>
+<option value="italy">Italy</option>
+<option value="greece">Greece</option>
+<option value="russia">Russia</option>
+</select>
+</p>
+</div>
+
+<div>
+<input type="submit" value="Submit"/>
+</div>
+
+</form>
+</body>
+</html>
